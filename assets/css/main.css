@@ -1,0 +1,11 @@
+.enlaceredes{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+
+.enlaceredes a{
+    margin-right: 10px;
+    text-decoration: none;
+}

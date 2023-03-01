@@ -1,0 +1,127 @@
+.contacto{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.contacto p{
+    padding: 1rem;
+    text-align: center;
+}
+
+.contacto_redes{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlaceredes{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.enlaceredes img{
+    width: 2rem;
+}
+
+.form_container{
+    width: 92%;
+    margin: auto;
+}
+
+.fila_media{
+    display: block;
+}
+
+.form_texto{
+    width: 90%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form_texto_email{
+    width: 90%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form_texto_name{
+    width: 90%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.fila{
+    width: 100%;
+}
+
+.form_label{
+    margin: 0px 20px 5px;
+    display: block;
+}
+
+.label_email{
+    margin: 0px 20px 5px;
+    display: block;
+}
+
+.label_name{
+    margin: 0px 20px 5px;
+    display: block;
+}
+
+.boton_enviar{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.btn_enviar{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px; 
+}
+
+@media only screen and (min-width: 768px){
+    .contacto p{
+        font-size: 19px;
+    }
+    
+    .enlaceredes{
+        gap: 4rem;
+    }
+
+    .enlaceredes img{
+        width: 4rem;
+    }
+    
+    .form_container{
+        padding-top: 2rem;
+    }
+
+    .fila_media{
+        display: flex;
+    }
+
+    .form_texto_name{
+        width: 48%;
+    }
+
+    .form_texto_email{
+        width: 48%;
+    }
+
+    .label_name{
+        display: block;
+        margin: -25px -80px 0 20px;
+    }
+
+    .label_email{
+        display: block;
+        margin: -25px -70px 0px 36px;
+    }
+}

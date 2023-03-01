@@ -1,0 +1,77 @@
+.sobremi{
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sobremi_container_img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_perfil{
+    width: 90%;
+    border-radius: 50%;
+    padding-top: 1rem;
+}
+
+.sobremi_container_texto{
+    width: 70%;
+    display: grid;
+}
+
+.sobremi_titulo{
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sobremi_texto{
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.firma{
+    width: 10rem;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    .sobremi_titulo{
+        font-size: 2rem;
+    }
+
+    .sobremi_texto{
+        font-size: 19px;
+    }    
+}
+
+@media screen and (max-width: 600px){
+    .sobremi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobremi_container_img{
+        width: 40%;;
+        margin: auto;
+    }
+
+    .foto_perfil{
+        width: 100%;
+    }
+
+    .sobremi_container_texto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobremi_titulo{
+        padding-top: 1rem;
+    }
+}
